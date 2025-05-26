@@ -1,11 +1,14 @@
 .projects-main {
   width: 100%;
   text-align: center;
+  background-color: #121212;
+  min-height: 100vh;
 }
 
 .basic-projects {
   margin-left: 5%;
   margin-right: 5%;
+  padding-top: 40px;
 }
 
 .projects-heading-div {
@@ -38,6 +41,7 @@
   line-height: 1.1;
   text-align: center;
   margin-top: 80px;
+  color: #ffffff;
 }
 
 .projects-heading-sub-text {
@@ -45,6 +49,7 @@
   font-family: "Google Sans Regular";
   text-align: center;
   margin-bottom: 10px;
+  color: #e0e0e0;
 }
 
 .projects-header-detail-text {
@@ -54,25 +59,170 @@
   margin-left: 20px;
   margin-right: 20px;
   font-family: "Google Sans Medium";
-}
-.publications-heading-text-div {
-  text-align: center;
-  font-family: "Google Sans Regular";
-  margin-top: 70px;
+  color: #b0b0b0;
 }
 
-.publications-heading-text {
-  font-size: 56px;
-  font-weight: 600;
+/* Section Styles */
+.experience-section,
+.tech-stack-section {
+  margin: 60px 5%;
+  padding: 40px 0;
+  background-color: #121212;
 }
-.repo-cards-div-main {
+
+.section-title {
+  font-size: 40px;
+  font-weight: 400;
+  font-family: "Google Sans Medium";
+  margin-bottom: 40px;
+  text-align: center;
+  color: #ffffff;
+}
+
+/* Experience Card */
+.experience-card {
+  background-color: #2a2a2a;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.experience-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+/* Customer Logos */
+.customer-logos-container {
+  padding: 20px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.02);
+}
+
+.customer-logos-title {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 15px;
+  font-family: "Google Sans Medium";
+}
+
+.customer-logos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+.customer-logo {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 1rem 1rem;
-  margin-left: 40px;
-  margin-right: 40px;
-  margin-top: 60px;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding: 10px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.customer-logo:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.customer-logo-img {
+  width: 150px;
+  object-fit: contain;
+}
+
+.customer-name {
+  font-size: 14px;
+  font-family: "Google Sans Regular";
+  text-align: center;
+}
+
+/* Tech Stack Grid */
+.tech-stack-grid {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.tech-stack-card {
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+  max-width: 1200px;
+  width: 100%;
+  background-color: #1a1a1a;
+}
+
+.tech-stack-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+.tech-stack-icons {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+.tech-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  padding: 20px;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  width: 140px;
+  height: 140px;
+  background-color: #2a2a2a;
+}
+
+.tech-icon:hover {
+  background-color: #333333;
+  transform: translateY(-2px);
+}
+
+.tech-icon .iconify {
+  font-size: 64px;
+  width: 64px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  filter: brightness(1.4) contrast(1.2) drop-shadow(0 0 2px rgba(255, 255, 255, 0.3));
+  stroke: #ffffff;
+  stroke-width: 1px;
+  fill: currentColor;
+}
+
+.tech-icon:hover .iconify {
+  filter: brightness(1.6) contrast(1.3) drop-shadow(0 0 3px rgba(255, 255, 255, 0.4));
+}
+
+.tech-name {
+  font-size: 16px;
+  font-family: "Google Sans Regular";
+  text-align: center;
+  margin-top: 10px;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #e0e0e0;
+}
+
+/* Repo Cards Grid */
+.repo-cards-div-main {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(400px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
 }
 
 @media (max-width: 1380px) {
@@ -80,20 +230,16 @@
     font-size: 50px;
     margin-top: 80px;
   }
-  .projects-heading-sub-text {
-    font-size: 25px;
+  .section-title {
+    font-size: 35px;
   }
 }
 
 @media (max-width: 768px) {
   .projects-heading-text,
-  .publications-heading-text {
+  .section-title {
     font-size: 30px;
     margin-top: 20px;
-  }
-
-  .projects-heading-sub-text {
-    font-size: 20px;
   }
 
   .projects-heading-div {
@@ -109,9 +255,50 @@
   }
 
   .repo-cards-div-main {
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 30px;
+    grid-template-columns: repeat(1, minmax(300px, 1fr));
+  }
+
+  .customer-logo-img {
+    width: 200px;
+    height: 100px;
+  }
+
+  .customer-name {
+    font-size: 12px;
+  }
+
+  .tech-stack-grid {
+    padding: 0 20px;
+  }
+
+  .tech-stack-card {
+    padding: 20px;
+  }
+
+  .tech-stack-icons {
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 30px;
+  }
+
+  .tech-icon {
+    width: 110px;
+    height: 110px;
+    padding: 15px;
+  }
+
+  .tech-icon .iconify {
+    font-size: 48px;
+    width: 48px;
+    height: 48px;
+  }
+
+  .tech-name {
+    font-size: 14px;
+  }
+
+  .experience-section,
+  .tech-stack-section {
+    margin: 40px 20px;
+    padding: 20px 0;
   }
 }

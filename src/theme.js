@@ -154,12 +154,12 @@ export const yellowTheme = {
 };
 
 export const materialDarkTheme = {
-  body: "#263238",
-  text: "#aeaeae",
+  body: "#000",
+  text: "#fff",
   expTxtColor: "#000a12",
   highlight: "#4f5b62",
-  dark: "#000a12",
-  secondaryText: "#aeaeae",
+  dark: "#000aaa",
+  secondaryText: "#aeaeff",
   imageHighlight: "#607d8b",
   compImgHighlight: "#E6E6E6",
   jacketColor: "#8eacbb",
@@ -182,7 +182,7 @@ export const materialLightTheme = {
 };
 
 export const materialTealTheme = {
-  body: "#ffffff",
+  body: "#z",
   text: "#05505E",
   expTxtColor: "#000000",
   highlight: "#a1dded",
@@ -195,4 +195,4 @@ export const materialTealTheme = {
   splashBg: "#05505E",
 };
 
-export const chosenTheme = blueTheme;
+export const chosenTheme = materialDarkTheme;

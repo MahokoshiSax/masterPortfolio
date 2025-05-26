@@ -1,0 +1,133 @@
+.tech-stack-section {
+  margin: 60px 5%;
+  padding: 40px 0;
+}
+
+.section-title {
+  font-size: 40px;
+  font-weight: 400;
+  font-family: "Google Sans Medium";
+  margin-bottom: 40px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.tech-stack-grid {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.tech-stack-card {
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+  max-width: 1200px;
+  width: 100%;
+  background-color: #1a1a1a;
+}
+
+.tech-stack-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+.tech-stack-icons {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.tech-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  padding: 15px;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  width: 120px;
+  height: 120px;
+  background-color: #2a2a2a;
+}
+
+.tech-icon:hover {
+  background-color: #333333;
+  transform: translateY(-5px);
+}
+
+.tech-icon .iconify {
+  font-size: 48px;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+}
+
+.tech-name {
+  font-size: 14px;
+  font-family: "Google Sans Regular";
+  text-align: center;
+  margin-top: 8px;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #ffffff;
+}
+
+@media (max-width: 1380px) {
+  .section-title {
+    font-size: 35px;
+  }
+  
+  .tech-stack-card {
+    max-width: 1000px;
+  }
+}
+
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 30px;
+    margin-top: 20px;
+  }
+
+  .tech-stack-grid {
+    padding: 0 20px;
+  }
+
+  .tech-stack-card {
+    padding: 20px;
+  }
+
+  .tech-stack-icons {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 20px;
+  }
+
+  .tech-icon {
+    width: 100px;
+    height: 100px;
+    padding: 12px;
+  }
+
+  .tech-icon .iconify {
+    font-size: 40px;
+    width: 40px;
+    height: 40px;
+  }
+
+  .tech-name {
+    font-size: 12px;
+  }
+
+  .tech-stack-section {
+    margin: 40px 20px;
+    padding: 20px 0;
+  }
+} 

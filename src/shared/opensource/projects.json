@@ -1,122 +1,200 @@
 {
   "data": [
     {
-      "id": "R_kgDOJWL0-g",
-      "name": "mdp-diffusion",
-      "createdAt": "2023-04-13T04:18:19Z",
-      "url": "https://github.com/ashutosh1919/mdp-diffusion",
-      "description": "Text-guided image editing by manipulating diffusion path without any training.",
+      "id": "muze",
+      "name": "Muze E-Commerce Platform",
+      "createdAt": "",
+      "url": "",
+      "description": "E-Commerce websites for well-known brands such as Superdry, McJean, and Warrix. Developed and maintained frontend and backend features using React.js, Node.js, Magento 2, and deploying on AWS. My role involved integrating third-party APIs, optimizing performance, and ensuring responsive, user-friendly interfaces tailored to business requirements.",
       "isFork": false,
+      "customers": [
+        {
+          "name": "Superdry",
+          "logo_path": "superdry_logo.png"
+        },
+        {
+          "name": "McJean",
+          "logo_path": "mc_logo.png"
+        },
+        {
+          "name": "Warrix",
+          "logo_path": "warrix_logo.png"
+        }
+      ],
       "languages": [
         {
-          "name": "Python",
-          "iconifyClass": "logos-python"
+          "name": "React.js",
+          "iconifyClass": "logos-react",
+          "size": "24px"
         },
         {
-          "name": "Shell",
-          "iconifyClass": "simple-icons:shell"
+          "name": "Node.js",
+          "iconifyClass": "logos-nodejs",
+          "size": "24px"
         },
         {
-          "name": "Jupyter Notebook",
-          "iconifyClass": "logos-jupyter"
+          "name": "AWS",
+          "iconifyClass": "logos-aws",
+          "size": "24px"
+        },
+        {
+          "name": "Magento 2",
+          "iconifyClass": "logos-magento",
+          "size": "24px"
         }
       ]
     },
     {
-      "id": "R_kgDOG_vYHA",
-      "name": "explainable-cnn",
-      "createdAt": "2022-03-13T20:41:33Z",
-      "url": "https://github.com/ashutosh1919/explainable-cnn",
-      "description": "📦 PyTorch based visualization package for generating layer-wise explanations for CNNs.",
+      "id": "incart",
+      "name": "Incart E-Commerce Platform",
+      "createdAt": "",
+      "url": "https://incart.co",
+      "description": "E-commerce platform that allows users to create their own online store using tools that simplify every step — from building a business website or e-commerce site to managing orders, chat-commerce systems, and connecting to marketplaces.",
       "isFork": false,
+      "customers": [
+        {
+          "name": "Siam Piwat",
+          "logo_path": "siam_logo.png"
+        }
+      ],
       "languages": [
         {
-          "name": "Python",
-          "iconifyClass": "logos-python"
+          "name": "React.js",
+          "iconifyClass": "logos-react",
+          "size": "24px"
+        },
+        {
+          "name": "Node.js",
+          "iconifyClass": "logos-nodejs",
+          "size": "24px"
+        },
+        {
+          "name": "AWS",
+          "iconifyClass": "logos-aws",
+          "size": "24px"
+        },
+        {
+          "name": "SQLite",
+          "iconifyClass": "logos-sqlite",
+          "size": "24px"
+        },
+        {
+          "name": "GraphQL",
+          "iconifyClass": "logos-graphql",
+          "size": "24px"
         }
       ]
     },
     {
-      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
-      "name": "masterPortfolio",
-      "createdAt": "2020-03-06T16:26:54Z",
-      "url": "https://github.com/ashutosh1919/masterPortfolio",
-      "description": "🔥 The Complete Customizable Software Developer Portfolio Template which lets you showcase your work and provides each and every detail about you as Software Developer.",
+      "id": "rentspree-payment",
+      "name": "Rent Payment System - RentSpree",
+      "createdAt": "",
+      "url": "https://www.rentspree.com/rent-payment",
+      "description": "A secure, online payment system that allows tenants to pay monthly rent electronically and landlords to receive payments directly to their bank accounts. The system supports ACH transfers, recurring payments, and includes identity verification for landlords to comply with financial regulations. Designed to reduce manual work, improve transaction transparency, and streamline rent collection across the platform.",
       "isFork": false,
+      "customers": [
+        {
+          "name": "RentSpree",
+          "logo_path": "rentspree_logo.png"
+        }
+      ],
       "languages": [
         {
-          "name": "HTML",
-          "iconifyClass": "logos-html-5"
+          "name": "React",
+          "iconifyClass": "logos-react",
+          "size": "24px"
         },
         {
-          "name": "CSS",
-          "iconifyClass": "logos-css-3"
+          "name": "Next.js",
+          "iconifyClass": "logos-nextjs",
+          "size": "24px"
         },
         {
-          "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
+          "name": "Express",
+          "iconifyClass": "logos-express",
+          "size": "24px"
         },
         {
-          "name": "Dockerfile",
-          "iconifyClass": "simple-icons:docker"
+          "name": "NestJS",
+          "iconifyClass": "logos-nestjs",
+          "size": "24px"
+        },
+        {
+          "name": "MongoDB",
+          "iconifyClass": "logos-mongodb",
+          "size": "24px"
         }
       ]
     },
     {
-      "id": "R_kgDOG0_8uQ",
-      "name": "react-awesome-shapes",
-      "createdAt": "2022-02-11T14:50:20Z",
-      "url": "https://github.com/ashutosh1919/react-awesome-shapes",
-      "description": "🌀 Insert Awesome Shapes into Your React Site with Ease.",
-      "isFork": false,
+      "id": "evme",
+      "name": "EVME - EV Car Website/ Web Admin",
+      "url": "https://evme.io/th",
+      "description": "EVme is a comprehensive digital platform for electric vehicle (EV) services in Thailand. Operated by EVme Plus Co., Ltd., a subsidiary of PTT Group, EVme allows users to rent or purchase EVs through a single mobile application and web site, offering flexibility for both short-term and long-term rentals.",
+      "customers": [
+        {
+          "name": "EVME",
+          "logo_path": "evme_logo.png"
+        }
+      ],
       "languages": [
         {
-          "name": "HTML",
-          "iconifyClass": "logos-html-5"
+          "name": "React",
+          "iconifyClass": "logos-react",
+          "size": "24px"
+        }, {
+          "name": "ViteJs",
+          "iconifyClass": "logos-vitejs",
+          "size": "24px"
+        
+        },{
+          "name": "Microsoft Azure",
+          "iconifyClass": "logos-microsoft-azure",
+          "size": "24px"
         },
         {
-          "name": "CSS",
-          "iconifyClass": "logos-css-3"
-        },
-        {
-          "name": "Shell",
-          "iconifyClass": "simple-icons:shell"
-        },
-        {
-          "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
+          "name": "PostgreSQL",
+          "iconifyClass": "logos-postgresql",
+          "size": "24px"
         }
       ]
     },
     {
-      "id": "R_kgDOGcPKSQ",
-      "name": "neuro-symbolic-sudoku-solver",
-      "createdAt": "2021-11-26T17:56:07Z",
-      "url": "https://github.com/ashutosh1919/neuro-symbolic-sudoku-solver",
-      "description": "⚙️ Solving sudoku using Deep Reinforcement learning in combination with powerful symbolic representations.",
-      "isFork": false,
-      "languages": [
+      "id": "cryptoplat",
+      "name": "Mobyxtrade - Cryptocurrency Platform",
+      "url": "https://app.mobyxtrade.com/en/home",
+      "description": "Mobyx is operated by Cryptoplat Company Limited ('the Company'). The Company has been granted licenses for Digital Asset Broker and Digital Asset Dealer businesses under the supervision of the Securities and Exchange Commission of Thailand ('SEC').",
+      "customers": [
         {
-          "name": "Python",
-          "iconifyClass": "logos-python"
+          "name": "Cryptoplat",
+          "logo_path": "cryptoplat_logo.png"
         }
-      ]
-    },
-    {
-      "id": "MDEwOlJlcG9zaXRvcnkzMjU5NDM1MTE=",
-      "name": "react-liquidswipe",
-      "createdAt": "2021-01-01T08:31:51Z",
-      "url": "https://github.com/ashutosh1919/react-liquidswipe",
-      "description": "🚀 Smooth Liquid Swipe Animation to transition between different components.",
-      "isFork": false,
+      ],
       "languages": [
         {
-          "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
+          "name": "React",
+          "iconifyClass": "logos-react",
+          "size": "24px"
         },
         {
-          "name": "CSS",
-          "iconifyClass": "logos-css-3"
+          "name": "Next.js",
+          "iconifyClass": "logos-nextjs",
+          "size": "24px"
+        },
+        {
+          "name": "Go",
+          "iconifyClass": "logos-go",
+          "size": "24px"
+        },
+        {
+          "name": "PostgreSQL",
+          "iconifyClass": "logos-postgresql",
+          "size": "24px"
+        },
+        {
+          "name": "AWS",
+          "iconifyClass": "logos-aws",
+          "size": "24px"
         }
       ]
     }
